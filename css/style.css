@@ -1,0 +1,116 @@
+/* DO NOT USE THE @IMPORT */ 
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+  color: #d8c7be;
+}
+a {
+    color: #d8c7be;
+}
+a:hover {
+    color: #d8c7be;
+}
+.header, .portfolio {
+  overflow: hidden !important;
+}
+/*Navbar*/
+.navbar-default{
+  background-color: #d8c7be;
+}
+.navbar{
+  color: #d8c7be;
+}
+/*header*/
+.header, .portfolio{
+  padding: 5% 0 2% 0;
+}
+
+.header .row {
+ background: url(https://img-fotki.yandex.ru/get/150569/40565053.bf/0_da667_19143bb4_orig.jpg) no-repeat;
+ background-size:cover;
+ background-position: 0 15%;
+}
+
+.header .row h2 {
+  margin-top: 30%;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-item a.active{
+  color: red;
+}
+
+.strange-text {
+  font-family: 'Russo One';
+  color: #8b4c3b;
+}
+
+.darked-background {
+  background-color:#222;
+  padding: 10px;
+}
+ /* Иконки социальных медиа в шапке*/
+.header-icon {
+  color: #fff;
+  font-size: 35px;
+  opacity: 0.7;
+  margin: 10px 10px;
+}
+
+.header-icon:hover{
+  opacity:1;
+}
+
+.background-texture{
+  background-image:url("//www.pixeden.com/media/k2/galleries/275/002-blurred-background-texture-vol2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.portfolio h1{
+  margin: 50% 0;
+}
+.img-responsive{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.portfolio {
+  background-color: #222;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.portfolio, .contact-me {
+  margin-bottom: 2%;
+}
+
+.contact-me h1{
+  margin-top: 50%;
+}
+.contact-me .row div {
+  margin: 10px 0;
+}
+.contact-me .row button {
+  margin-top: 5%;
+}
+.footer .row {
+  width: 100%;
+}
+
+.footer .row p {
+  margin-top: 2%;
+}
+.portfolio-preview {
+  height: 200px;
+}
+.
